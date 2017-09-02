@@ -16,5 +16,21 @@ public class TruckController : MonoBehaviour {
         {
             _script.ShootBurrito();
         }        
+        if(Input.GetKey(KeyCode.LeftArrow))
+        {
+            _script.TurnLeft();
+        }
+        else if(Input.GetKey(KeyCode.RightArrow))
+        {
+            _script.TurnRight();
+        }
 	}
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("wall"))
+        {
+            _script.Die();
+        }
+    }
 }
