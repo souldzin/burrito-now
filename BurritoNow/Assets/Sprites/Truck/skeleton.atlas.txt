@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cannon_0000_base
+  rotate: false
+  xy: 432, 100
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+Cannon_0001_fire_1
+  rotate: true
+  xy: 2, 15
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+Cannon_0002_fire_2
+  rotate: false
+  xy: 351, 91
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+Cannon_0003_fire_3
+  rotate: false
+  xy: 289, 10
+  size: 41, 38
+  orig: 41, 38
+  offset: 0, 0
+  index: -1
+Cannon_0004_fire_4
+  rotate: false
+  xy: 301, 50
+  size: 45, 37
+  orig: 45, 37
+  offset: 0, 0
+  index: -1
+Cannon_0005_fire_5
+  rotate: false
+  xy: 252, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+Cannon_0006_fire_6
+  rotate: false
+  xy: 200, 89
+  size: 50, 37
+  orig: 50, 37
+  offset: 0, 0
+  index: -1
+Cannon_0007_fire_7
+  rotate: false
+  xy: 200, 50
+  size: 49, 37
+  orig: 49, 37
+  offset: 0, 0
+  index: -1
+Cannon_0008_fire_8
+  rotate: false
+  xy: 251, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+Cannon_0009_fire_9
+  rotate: false
+  xy: 239, 11
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+Cannon_0010_fire_10
+  rotate: true
+  xy: 200, 2
+  size: 46, 37
+  orig: 46, 37
+  offset: 0, 0
+  index: -1
+Cannon_0011_fire_11
+  rotate: false
+  xy: 302, 89
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+Cannon_0012_fire_12
+  rotate: true
+  xy: 394, 92
+  size: 34, 36
+  orig: 34, 36
+  offset: 0, 0
+  index: -1
+truck
+  rotate: true
+  xy: 2, 33
+  size: 93, 196
+  orig: 256, 256
+  offset: 74, 35
+  index: -1
