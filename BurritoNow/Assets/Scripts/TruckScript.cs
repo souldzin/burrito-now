@@ -6,7 +6,7 @@ using UnityEngine;
 public class TruckScript : MonoBehaviour {
     const string ANIMATION_FIRE = "fire";
     const float BURRITO_FIRE_SPEED = 12.0f;
-    private Vector3 CANNON_POSITION = new Vector3(1.06f, 0.78f);
+    private Vector3 CANNON_POSITION = new Vector3(1.2f, -0.2f);
 
     public Vector3 velocity = new Vector2(0, 1.0f);
     public float rotationSpeed = 60.0f;
