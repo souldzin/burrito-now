@@ -18,7 +18,7 @@ public class BurritoScript : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("wall"))
+        if(collision.CompareTag("burrito-wall"))
         {
             Die();            
         }
@@ -32,7 +32,6 @@ public class BurritoScript : MonoBehaviour {
 
     public void Die()
     {
-        Debug.Log("Burrito die");
         Destroy(this.gameObject);
     }
 }

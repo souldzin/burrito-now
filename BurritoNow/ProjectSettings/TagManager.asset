@@ -6,8 +6,7 @@ TagManager:
   tags:
   - player
   - wall
-  - living
-  - burrito
+  - burrito-wall
   layers:
   - Default
   - TransparentFX
