@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114495611509135902}
   m_Layer: 0
   m_Name: Burrito
-  m_TagString: living
+  m_TagString: burrito
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
