@@ -35,8 +35,13 @@ public class TruckScript : MonoBehaviour {
 
     public void ShootBurrito()
     {
-        PlayShootAnimation();
-        CreateBurrito();
+        var gameManger = GameManager.Instance;
+        if (gameManger.Burritos > 0)
+        {
+            PlayShootAnimation();
+            CreateBurrito();
+            GameManager.Instance.SubtractBurrito();
+        }
     }
 
     public void Die ()
